@@ -39,6 +39,10 @@ BOARD_FORCE_RAMDISK_ADDRESS := 0x81800000
 TARGET_PREBUILT_KERNEL := device/htc/valentewx/prebuilt/kernel
 TARGET_KERNEL_CONFIG := valente_wx_defconfig
 
+# Use init.rc in the device tree
+# for J
+TARGET_PROVIDES_INIT_RC := true
+
 # Use libril in the device tree
 BOARD_PROVIDES_LIBRIL := true
 
