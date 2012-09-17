@@ -52,6 +52,10 @@ lib/libgsl.so
 lib/libOpenVG.so
 lib/libsc-a2xx.so
 
+# for J
+lib/libsurfaceflinger_client.so
+lib/hw/camera.msm8960.so
+
 # GPS
 lib/hw/gps.default.so
 lib/libgps.utils.so
@@ -89,3 +93,4 @@ lib/libril-qcril-hook-oem.so
 
 # Sensors
 lib/hw/sensors.ville.so
+lib/hw/sensors.msm8960.so
