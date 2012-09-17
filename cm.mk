@@ -14,8 +14,9 @@ $(call inherit-product, device/htc/valentewx/device_valentewx.mk)
 PRODUCT_DEVICE := valentewx
 PRODUCT_NAME := cm_valentewx
 PRODUCT_BRAND := htc
-PRODUCT_MODEL := HTC One S
+PRODUCT_MODEL := HTC J
 PRODUCT_MANUFACTURER := HTC
 
 # Set build fingerprint / ID / Product Name ect.
+# TODO: replace for J
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_ville BUILD_FINGERPRINT=tmous/ville/ville:4.0.3/IML74K/47441.16:user/release-keys PRIVATE_BUILD_DESC="1.53.401.16 CL47741 release-keys" BUILD_NUMBER=47741
