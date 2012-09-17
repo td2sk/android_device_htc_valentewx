@@ -2,17 +2,17 @@
 $(call inherit-product, vendor/cm/config/gsm.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := ville
+PRODUCT_RELEASE_NAME := valentewx
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/htc/ville/device_ville.mk)
+$(call inherit-product, device/htc/valentewx/device_valentewx.mk)
 
 # Device naming
-PRODUCT_DEVICE := ville
-PRODUCT_NAME := cm_ville
+PRODUCT_DEVICE := valentewx
+PRODUCT_NAME := cm_valentewx
 PRODUCT_BRAND := htc
 PRODUCT_MODEL := HTC One S
 PRODUCT_MANUFACTURER := HTC
