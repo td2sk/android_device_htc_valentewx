@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="07" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="08" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="50" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="51" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="52" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="53" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="54" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="55" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="56" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="70" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="71" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="72" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="73" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="74" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="75" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="76" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="77" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="78" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="79" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="80" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="81" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="82" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="83" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="84" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="85" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="86" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="88" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="440" mnc="89" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="441" mnc="50" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="441" mnc="51" authtype="2" type="*" state="hidden" />
+    <apn carrier="KDDI" apn="gp.ezweb.ne.jp" user="IMSI.sp0x@gp.ezweb.ne.jp" password="password" mcc="441" mnc="70" authtype="2" type="*" state="hidden" />
+</apns>
