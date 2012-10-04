@@ -39,6 +39,8 @@ BOARD_FORCE_RAMDISK_ADDRESS := 0x81800000
 TARGET_PREBUILT_KERNEL := device/htc/valentewx/prebuilt/default_kernel
 TARGET_KERNEL_CONFIG := valente_wx_defconfig
 
+TARGET_PREBUILT_RECOVERY_KERNEL := device/htc/valentewx/prebuilt/unlock_kernel
+
 # Use init.rc in the device tree
 # for J
 TARGET_PROVIDES_INIT_RC := true
