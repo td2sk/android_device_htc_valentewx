@@ -36,7 +36,7 @@ BOARD_KERNEL_PAGE_SIZE := 2048
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8
 BOARD_FORCE_RAMDISK_ADDRESS := 0x81800000
 
-TARGET_PREBUILT_KERNEL := device/htc/valentewx/prebuilt/kernel
+TARGET_PREBUILT_KERNEL := device/htc/valentewx/prebuilt/default_kernel
 TARGET_KERNEL_CONFIG := valente_wx_defconfig
 
 # Use init.rc in the device tree
