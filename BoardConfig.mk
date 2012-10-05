@@ -40,6 +40,7 @@ TARGET_PREBUILT_KERNEL := device/htc/valentewx/prebuilt/default_kernel
 TARGET_KERNEL_CONFIG := valente_wx_defconfig
 
 TARGET_PREBUILT_RECOVERY_KERNEL := device/htc/valentewx/prebuilt/unlock_kernel
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/htc/valentewx/recovery/default_recovery_keys.c
 
 # Use init.rc in the device tree
 # for J
