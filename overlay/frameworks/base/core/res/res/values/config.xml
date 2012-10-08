@@ -143,4 +143,6 @@
         <item>5</item>
         <item>7</item>
     </integer-array>
+
+    <bool name="config_wimaxEnabled">true</bool>
 </resources>
