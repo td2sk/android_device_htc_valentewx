@@ -42,9 +42,6 @@ TARGET_KERNEL_CONFIG := valente_wx_defconfig
 TARGET_PREBUILT_RECOVERY_KERNEL := device/htc/valentewx/prebuilt/unlock_kernel
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/htc/valentewx/recovery/default_recovery_keys.c
 
-# Use init.rc in the device tree
-# for J
-TARGET_PROVIDES_INIT_RC := true
 
 # Use libril in the device tree
 BOARD_PROVIDES_LIBRIL := true

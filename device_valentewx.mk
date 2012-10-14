@@ -24,10 +24,10 @@ DEVICE_PACKAGE_OVERLAYS += device/htc/valentewx/overlay
 # Boot ramdisk setup
 # TODO from ville to valentewx
 PRODUCT_COPY_FILES += \
-    device/htc/valentewx/ramdisk/fstab.ville:root/fstab.ville \
-    device/htc/valentewx/ramdisk/init.ville.rc:root/init.ville.rc \
-    device/htc/valentewx/ramdisk/init.ville.usb.rc:root/init.ville.usb.rc \
-    device/htc/valentewx/ramdisk/ueventd.ville.rc:root/ueventd.ville.rc
+    device/htc/valentewx/ramdisk/init.valentewx.rc:root/init.valentewx.rc \
+    device/htc/valentewx/ramdisk/init.valentewx.usb.rc:root/init.valentewx.usb.rc \
+    device/htc/valentewx/ramdisk/ueventd.valentewx.rc:root/ueventd.valentewx.rc \
+	device/htc/valentewx/ramdisk/init.target.rc:root/init.target.rc
 
 # recovery and custom charging
 PRODUCT_COPY_FILES += \
