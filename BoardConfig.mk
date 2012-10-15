@@ -43,9 +43,6 @@ TARGET_PREBUILT_RECOVERY_KERNEL := device/htc/valentewx/prebuilt/unlock_kernel
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/htc/valentewx/recovery/default_recovery_keys.c
 
 
-# Use libril in the device tree
-BOARD_PROVIDES_LIBRIL := true
-
 # Boot animation
 TARGET_SCREEN_HEIGHT := 960
 TARGET_SCREEN_WIDTH := 540
