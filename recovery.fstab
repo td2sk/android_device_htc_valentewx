@@ -17,4 +17,4 @@
 /sdcard		vfat		/dev/block/mmcblk0p39
 /system		ext4		/dev/block/mmcblk0p36
 /misc		emmc		/dev/block/mmcblk0p23
-
+/external_sd    vfat    /dev/block/mmcblk1p1 /dev/block/mmcblk1p1

@@ -34,7 +34,8 @@ PRODUCT_COPY_FILES += \
     device/htc/valentewx/recovery/sbin/choice_fn:recovery/root/sbin/choice_fn \
     device/htc/valentewx/recovery/sbin/power_test:recovery/root/sbin/power_test \
     device/htc/valentewx/recovery/sbin/offmode_charging:recovery/root/sbin/offmode_charging \
-    device/htc/valentewx/recovery/sbin/detect_key:recovery/root/sbin/detect_key
+    device/htc/valentewx/recovery/sbin/detect_key:recovery/root/sbin/detect_key \
+	device/htc/valentewx/recovery/init.rc:recovery/init.rc
 
 # GPS config
 PRODUCT_COPY_FILES += device/common/gps/gps.conf_US:system/etc/gps.conf
