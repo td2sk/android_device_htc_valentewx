@@ -41,7 +41,7 @@ TARGET_KERNEL_CONFIG := valente_wx_defconfig
 
 TARGET_PREBUILT_RECOVERY_KERNEL := device/htc/valentewx/prebuilt/unlock_kernel
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/htc/valentewx/recovery/default_recovery_keys.c
-
+BOARD_HAS_NO_SELECT_BUTTON := true
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 960
