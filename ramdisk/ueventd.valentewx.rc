@@ -104,7 +104,7 @@
 # hardware random
 /dev/hw_random            0660  system       system
 
-# for ville sensors
+# for valentewx sensors
 /dev/akm8975_aot          0640  compass      system
 /dev/akm8975_daemon       0640  compass      system
 /dev/bma150               0640  compass      system

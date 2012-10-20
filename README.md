@@ -1,7 +1,7 @@
-android_device_htc_ville
+android_device_htc_valentewx
 ========================
 
-Android device tree for HTC Ville (One S) - Jellybean Branch
+Android device tree for HTC ValenteWX (J) - Jellybean Branch
 
 Known issues:
 * Video Camera not working

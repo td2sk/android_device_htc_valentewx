@@ -127,7 +127,7 @@ lib/libril-qc-qmi-1.so
 lib/libril-qcril-hook-oem.so
 
 # Sensors
-lib/hw/sensors.ville.so
+lib/hw/sensors.valentewx.so
 
 # WLAN
 etc/firmware/wlan/prima/WCNSS_cfg.dat
