@@ -28,7 +28,7 @@
 -include device/htc/msm8960-common/BoardConfigCommon.mk
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := ville
+TARGET_BOOTLOADER_BOARD_NAME := valentewx
 
 # Kernel
 BOARD_KERNEL_BASE := 0x80400000
@@ -36,8 +36,8 @@ BOARD_KERNEL_PAGE_SIZE := 2048
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8
 BOARD_FORCE_RAMDISK_ADDRESS := 0x81800000
 
-TARGET_PREBUILT_KERNEL := device/htc/ville/prebuilt/kernel
-TARGET_KERNEL_CONFIG := ville_defconfig
+TARGET_PREBUILT_KERNEL := device/htc/valentewx/prebuilt/kernel
+TARGET_KERNEL_CONFIG := valente_wx_defconfig
 
 # Use libril in the device tree
 BOARD_PROVIDES_LIBRIL := true
@@ -48,7 +48,7 @@ TARGET_SCREEN_WIDTH := 540
 
 # QCOM GPS
 #BOARD_VENDOR_QCOM_GPS_LOC_API_AMSS_VERSION := 50000
-#BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := ville
+#BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := valentewx
 
 # Lights
 TARGET_PROVIDES_LIBLIGHTS := true
