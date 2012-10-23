@@ -11,6 +11,7 @@ on early-init
     symlink /storage/sdcard1 /mnt/external_sd
 
     export EXTERNAL_STORAGE /storage/sdcard0
+    export SECONDARY_STORAGE /storage/sdcard1
 
 on init
     mkdir /devlog 0700 root root
