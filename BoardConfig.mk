@@ -87,5 +87,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 2550136320
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_VOLD_MAX_PARTITIONS := 36
 
+# Recovery
 # Use power button as select in recovery
 BOARD_HAS_NO_SELECT_BUTTON := true
+TARGET_PREBUILT_RECOVERY_KERNEL := device/htc/valentewx/prebuilt/recovery_kernel
+
