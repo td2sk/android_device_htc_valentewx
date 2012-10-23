@@ -93,6 +93,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Torch
 
+# Kernel Modules
+PRODUCT_COPY_FILES += \
+	device/htc/valentewx/modules/prima_wlan.ko:/system/lib/modules/prima_wlan.ko
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
