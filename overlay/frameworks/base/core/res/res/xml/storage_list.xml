@@ -37,6 +37,11 @@
     <storage android:mountPoint="/storage/sdcard0"
              android:storageDescription="@string/storage_sd_card"
              android:primary="true"
+             android:removable="false"
+             android:allowMassStorage="true" />
+    <storage android:mountPoint="/storage/sdcard1"
+             android:storageDescription="external SD"
+             android:primary="false"
              android:removable="true"
              android:allowMassStorage="true" />
 </StorageList>
