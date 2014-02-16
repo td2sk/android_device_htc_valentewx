@@ -28,16 +28,16 @@
 -include device/htc/s4-common/BoardConfigCommon.mk
 
 # Require bootloader version
-TARGET_BOARD_INFO_FILE ?= device/htc/ville/board-info.txt
+TARGET_BOARD_INFO_FILE ?= device/htc/valentewx/board-info.txt
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := ville
+TARGET_BOOTLOADER_BOARD_NAME := valentewx
 
 # Kernel
-TARGET_KERNEL_CONFIG := ville_defconfig
+TARGET_KERNEL_CONFIG := valente_wx_defconfig
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/ville/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/valentewx/bluetooth
 
 # Use libril in the device tree
 BOARD_PROVIDES_LIBRIL := true

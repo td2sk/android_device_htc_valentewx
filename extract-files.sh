@@ -2,6 +2,6 @@
 
 set -e
 
-export DEVICE=ville
+export DEVICE=valentewx
 export VENDOR=htc
 ./../s4-common/extract-files.sh $@
