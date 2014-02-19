@@ -27,6 +27,9 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     remount.qcom
 
+PRODUCT_COPY_FILES += device/htc/valentewx/rootdir/etc/init.qcom.rc:root/init.qcom.rc
+
+
 # HTC BT audio config
 PRODUCT_COPY_FILES += device/htc/valentewx/configs/AudioBTID.csv:system/etc/AudioBTID.csv
 
@@ -41,7 +44,7 @@ PRODUCT_COPY_FILES += \
     device/htc/valentewx/dsp/soundimage/srs_global.cfg:system/etc/soundimage/srs_global.cfg
 
 PRODUCT_COPY_FILES += \
-    device/htc/valentewx/dsp/snd_soc_msm/snd_soc_msm_2x:/system/etc/snd_soc_msm/snd_soc_msm_2x
+    device/htc/valentewx/dsp/snd_soc_msm/snd_soc_msm_2x:system/etc/snd_soc_msm/snd_soc_msm_2x
 
 # Media config
 PRODUCT_COPY_FILES += \
@@ -64,7 +67,11 @@ PRODUCT_COPY_FILES += \
 
 # Recovery
 PRODUCT_COPY_FILES += \
-    device/htc/valentewx/rootdir/etc/fstab.qcom:recovery/root/fstab.qcom
+    device/htc/valentewx/rootdir/etc/fstab.qcom:recovery/root/fstab.qcom \
+    device/htc/valentewx/recovery/sbin/choice_fn:recovery/root/sbin/choice_fn \
+    device/htc/valentewx/recovery/sbin/detect_key:recovery/root/sbin/detect_key \
+    device/htc/valentewx/recovery/sbin/offmode_charging:recovery/root/sbin/offmode_charging \
+    device/htc/valentewx/recovery/sbin/power_test:recovery/root/sbin/power_test
 
 # Torch
 PRODUCT_PACKAGES += \
@@ -86,7 +93,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
-PRODUCT_LOCALES += en_US hdpi
+PRODUCT_LOCALES += ja_JP hdpi
 
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/htc/valentewx/valentewx-vendor.mk)
@@ -97,6 +104,6 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 # Discard inherited values and use our own instead.
 PRODUCT_DEVICE := valentewx
 PRODUCT_NAME := valentewx
-PRODUCT_BRAND := htc
-PRODUCT_MODEL := J
+PRODUCT_BRAND := KDDI
+PRODUCT_MODEL := ISW13HT
 PRODUCT_MANUFACTURER := HTC

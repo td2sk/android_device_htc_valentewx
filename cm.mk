@@ -14,8 +14,8 @@ $(call inherit-product, device/htc/valentewx/device_valentewx.mk)
 # Device naming
 PRODUCT_DEVICE := valentewx
 PRODUCT_NAME := cm_valentewx
-PRODUCT_BRAND := htc
-PRODUCT_MODEL := One S
+PRODUCT_BRAND := KDDI
+PRODUCT_MODEL := ISW13HT
 PRODUCT_MANUFACTURER := HTC
 
 # Set build fingerprint / ID / Product Name ect.

@@ -35,6 +35,8 @@ TARGET_BOOTLOADER_BOARD_NAME := valentewx
 
 # Kernel
 TARGET_KERNEL_CONFIG := valente_wx_defconfig
+TARGET_KERNEL_SOURCE := kernel/htc/valentewx
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro48x
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/valentewx/bluetooth
@@ -50,13 +52,13 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/
 #mmcblk0p23: 000ffa00 00000200 "misc"
 #mmcblk0p22: 00fffe00 00000200 "recovery"
 #mmcblk0p21: 01000000 00000200 "boot"
-#mmcblk0p33: 67fffc00 00000200 "system"
+#mmcblk0p36: 47fffc00 00000200 "system"
 #mmcblk0p30: 00140200 00000200 "local"
-#mmcblk0p34: 0ffffe00 00000200 "cache"
-#mmcblk0p35: 97fffe00 00000200 "userdata"
+#mmcblk0p37: 0dfffe00 00000200 "cache"
+#mmcblk0p38: 89fffe00 00000200 "userdata"
 #mmcblk0p26: 01400000 00000200 "devlog"
 #mmcblk0p28: 00040000 00000200 "pdata"
-#mmcblk0p36: 27be00000 00000200 "fat"
+#mmcblk0p39: 27be00000 00000200 "fat"
 #mmcblk0p31: 00010000 00000200 "extra"
 #mmcblk0p17: 02d00000 00000200 "radio"
 #mmcblk0p18: 00a00000 00000200 "adsp"
@@ -65,6 +67,8 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/
 #mmcblk0p20: 007ffa00 00000200 "radio_config"
 #mmcblk0p24: 00400000 00000200 "modem_st1"
 #mmcblk0p25: 00400000 00000200 "modem_st2"
+#mmcblk0p34: 01ffec00 00000200 "wimax"
+#mmcblk0p32: 007ffa00 00000200 "udata_wimax"
 
 # Filesystem
 TARGET_USERIMAGES_USE_EXT4 := true
@@ -75,4 +79,27 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 2550136320
 BOARD_FLASH_BLOCK_SIZE := 131072
 
 # Vold
+#BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 BOARD_VOLD_MAX_PARTITIONS := 39
+BOARD_USES_MMCUTILS := true
+BOARD_HAS_NO_MISC_PARTITION := true
+
+# Recovery
+#TARGET_RECOVERY_FSTAB := device/htc/valentewx/recovery/recovery.fstab
+TARGET_RECOVERY_INITRC := device/htc/valentewx/recovery/init.rc
+
+#BOARD_SDCARD_DEVICE_PRIMARY := /dev/block/mmcblk1p1
+#BOARD_SDCARD_DEVICE_SECONDARY := /dev/block/mmcblk1
+
+# TWRP
+DEVICE_RESOLUTION := 540x960
+TW_FLASH_FROM_STORAGE := true
+TW_DEFAULT_EXTERNAL_STORAGE := true
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+TW_INTERNAL_STORAGE_PATH := "/sdcard"
+TW_INTERNAL_STORAGE_MOUNT_POINT := "sdcard"
+TW_EXTERNAL_STORAGE_PATH := "/external_sd"
+TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
+TW_INCLUDE_DUMLOCK := true
+TW_INCLUDE_JB_CRYPTO := true
