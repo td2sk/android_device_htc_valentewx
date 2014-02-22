@@ -36,7 +36,6 @@ TARGET_BOOTLOADER_BOARD_NAME := valentewx
 # Kernel
 TARGET_KERNEL_CONFIG := valente_wx_defconfig
 TARGET_KERNEL_SOURCE := kernel/htc/valentewx
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro48x
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/valentewx/bluetooth
