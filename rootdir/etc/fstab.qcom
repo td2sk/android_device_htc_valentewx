@@ -3,7 +3,7 @@
 #/dev/block/mmcblk0p16	/firmware_dsps	vfat	ro,shortname=lower					wait
 /dev/block/mmcblk0p17	/firmware_radio	vfat	ro,shortname=lower					wait
 /dev/block/mmcblk0p18	/firmware_q6	vfat	ro,shortname=lower					wait
-/dev/block/mmcblk0p19	/firmware_wcnss	vfat	ro,shortname=lower					wait
+#/dev/block/mmcblk0p19	/firmware_wcnss	vfat	ro,shortname=lower					wait
 
 /dev/block/mmcblk0p21	/boot		emmc	defaults						defaults
 /dev/block/mmcblk0p22	/recovery	emmc	defaults						defaults
