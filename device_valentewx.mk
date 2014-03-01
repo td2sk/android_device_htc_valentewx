@@ -27,9 +27,6 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     remount.qcom
 
-PRODUCT_COPY_FILES += device/htc/valentewx/rootdir/etc/init.qcom.rc:root/init.qcom.rc
-
-
 # HTC BT audio config
 PRODUCT_COPY_FILES += device/htc/valentewx/configs/AudioBTID.csv:system/etc/AudioBTID.csv
 
