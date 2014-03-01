@@ -4,9 +4,6 @@
 
 ro.sf.lcd_density=240
 
-# temp
-qemu.hw.mainkeys=0
-
 # RIL properties
 mobiledata.interfaces=rmnet0
 ro.subscription.types=RUIM
