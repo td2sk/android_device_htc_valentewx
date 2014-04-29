@@ -85,8 +85,7 @@ BOARD_USES_MMCUTILS := true
 BOARD_HAS_NO_MISC_PARTITION := true
 
 # Recovery
-#TARGET_RECOVERY_FSTAB := device/htc/valentewx/recovery/recovery.fstab
-TARGET_RECOVERY_INITRC := device/htc/valentewx/recovery/init.rc
+TARGET_RECOVERY_FSTAB := device/htc/valentewx/rootdir/etc/fstab.qcom
 
 #BOARD_SDCARD_DEVICE_PRIMARY := /dev/block/mmcblk1p1
 #BOARD_SDCARD_DEVICE_SECONDARY := /dev/block/mmcblk1
