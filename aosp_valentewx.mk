@@ -6,14 +6,14 @@ TARGET_SCREEN_HEIGHT := 960
 TARGET_SCREEN_WIDTH := 540
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+#$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/valentewx/device_valentewx.mk)
 
 # Device naming
 PRODUCT_DEVICE := valentewx
-PRODUCT_NAME := cm_valentewx
+PRODUCT_NAME := aosp_valentewx
 PRODUCT_BRAND := KDDI
 PRODUCT_MODEL := ISW13HT
 PRODUCT_MANUFACTURER := HTC
