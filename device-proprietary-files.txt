@@ -9,4 +9,4 @@ lib/libchromatix_s5k3h2yx_preview.so
 lib/libchromatix_s5k3h2yx_zsl.so
 
 # Sensors
-lib/hw/sensors.ville.so
+lib/hw/sensors.msm8960.so
