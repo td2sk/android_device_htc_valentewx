@@ -1,12 +1,14 @@
 #
-# system.prop for ville
+# system.prop for valentewx
 #
 
 ro.sf.lcd_density=240
 
 # RIL properties
 mobiledata.interfaces=rmnet0
-ro.telephony.default_network=0
+ro.subscription.types=RUIM
+ro.telephony.default_cdma_sub=0
+ro.telephony.default_network=8
 DEVICE_PROVISIONED=1
 rild.libpath=/system/lib/libril-qc-qmi-1.so
 rild.libargs=-d /dev/smd0
@@ -14,3 +16,7 @@ ro.telephony.ril_class=HTCQualcommRIL
 
 # UMS
 persist.sys.usb.config=mtp
+
+# debug
+ro.adb.secure=0
+ro.secure=0

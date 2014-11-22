@@ -28,16 +28,16 @@
 -include device/htc/s4-common/BoardConfigCommon.mk
 
 # Require bootloader version
-TARGET_BOARD_INFO_FILE ?= device/htc/ville/board-info.txt
+TARGET_BOARD_INFO_FILE ?= device/htc/valentewx/board-info.txt
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := ville
+TARGET_BOOTLOADER_BOARD_NAME := valentewx
 
 # Kernel
-TARGET_KERNEL_CONFIG := ville_defconfig
+TARGET_KERNEL_CONFIG := valente_wx_defconfig
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/ville/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/valentewx/bluetooth
 
 # Camera
 BOARD_CAMERA_FRONT_VGA := true
@@ -81,8 +81,10 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_FLASH_BLOCK_SIZE := 131072
 
 # Vold
-BOARD_VOLD_MAX_PARTITIONS := 37
+BOARD_VOLD_MAX_PARTITIONS := 40
+BOARD_USES_MMCUTILS := true
+BOARD_HAS_NO_MISC_PARTITION := true
 
 # Recovery
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_10x18.h\"
-TARGET_RECOVERY_FSTAB := device/htc/ville/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := device/htc/valentewx/rootdir/etc/fstab.qcom

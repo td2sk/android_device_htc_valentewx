@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifeq ($(TARGET_DEVICE),ville)
+ifeq ($(TARGET_DEVICE),valentewx)
 LOCAL_PATH := $(call my-dir)
     include $(call first-makefiles-under,$(LOCAL_PATH))
 endif
